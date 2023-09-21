@@ -28,7 +28,7 @@ export default function UpdateProfile() {
         if (emailRef.current.value !== currentUser.email) {
             proms.push(updateEmail(emailRef.current.value));
         }
-        if (passwordRef.current.value !== currentUser.email) {
+        if (passwordRef.current.value !== currentUser.password) {
             proms.push(updatePassword(passwordRef.current.value));
         }
 
